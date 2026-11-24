@@ -1,0 +1,7 @@
+# Todo lo necesario para ejecutar el notebook (incluye las del dashboard)
+-r requirements.txt
+pyspark
+scipy
+matplotlib
+seaborn
+jupyter

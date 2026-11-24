@@ -1,0 +1,4 @@
+origen=https://raw.githubusercontent.com/lugooe/Diabetes/main/
+fecha_descarga=2026-11-22
+licencia=CC BY 4.0
+sha256=0689e7ec031237dc63031b938805c48377748761a3b26acab621567afa24df97
