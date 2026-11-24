@@ -104,31 +104,7 @@ Subir el notebook, agregar al inicio una celda con `!pip install pyspark` y usar
 
 ---
 
-## 7. Guion del video de funcionamiento
-
-**Requisitos:** enlace público, **máximo 5 minutos**, **sin audio**, mostrando el funcionamiento del proyecto. Como no hay narración, cada parte se explica con textos en pantalla.
-
-**Antes de grabar:** tener abiertos el repositorio en GitHub, el notebook ya ejecutado, el dashboard publicado en Streamlit y las diapositivas. Zoom del navegador al 125–150 % y notificaciones desactivadas.
-
-| Tiempo | En pantalla | Texto en pantalla |
-|---|---|---|
-| 0:00 – 0:15 | Diapositiva 1 | "Readmisión en diabetes — Proyecto integrador Big Data 2026-2" |
-| 0:15 – 0:45 | Repositorio en GitHub: README y carpetas `data/bronze`, `data/silver`, `data/gold` | "Repositorio y arquitectura por capas" |
-| 0:45 – 1:30 | Notebook → **T4. Ingesta**: salida con origen, fecha, SHA-256, "Volumen: 101,766 filas x 50 columnas" y "Filas leídas por Spark: 101766" | "Ingesta: 101.766 registros leídos con PySpark" |
-| 1:30 – 2:15 | Notebook → **5.1 Diagnóstico** (tabla con `weight` 96,86 %) y **5.3 Métricas antes / después** | "Limpieza: 192.849 faltantes tratados → 99.340 encuentros" |
-| 2:15 – 2:50 | Notebook → **T6**: celda `# P1 — filtro + groupBy` (tabla 8,6 → 37,1) y celda `# P4 — JOIN` ("99340 99340") | "PySpark y Spark SQL, verificados con count()" |
-| 2:50 – 4:20 | Dashboard en vivo: KPI → pestañas P1, P2, P3, P4 → cambiar el rango de edad y el sexo → marcar "Solo el primer encuentro" (la tasa pasa a 9,0 %) | Un texto por pestaña: "P1: 8,6 % → 37,1 % según hospitalizaciones previas", "P2: con HbA1c 9,9 % vs. 11,7 % sin medirla", "P3: la estancia crece con la edad", "P4: rehabilitación 27,7 % vs. casa 9,3 %" |
-| 4:20 – 4:40 | Diapositiva 12 | "Conclusiones y recomendaciones" |
-
-**Grabación (Windows):** Herramienta Recortes (`Win + Shift + R`) con micrófono y audio del sistema desactivados, u OBS con el audio silenciado. Mover el mouse despacio y quedarse unos segundos en cada cifra.
-
-**Edición (Clipchamp):** ordenar los clips, agregar los textos de la tabla (mínimo 4 segundos cada uno), silenciar cualquier audio, confirmar que dure menos de 5:00 y exportar en 1080p.
-
-**Publicación:** YouTube con visibilidad **Pública** o Google Drive con "Cualquier persona con el enlace". Probar el enlace en una ventana de incógnito y pegarlo arriba en este README y en el Anexo B del informe.
-
----
-
-## 8. Referencias
+## 7. Referencias
 
 - Anthropic. (2026). *Claude* (versión Opus 5.5) [Modelo de lenguaje de gran tamaño]. https://claude.ai
 - Congreso de la República de Colombia. (2012). *Ley Estatutaria 1581 de 2012, por la cual se dictan disposiciones generales para la protección de datos personales*.
